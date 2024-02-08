@@ -1,0 +1,30 @@
+(lang dune 3.12)
+(name MazeEscape)
+(sections (lib .) (libexec .) (bin ../../bin))
+(files
+ (lib
+  (META
+   dune-package
+   mazesolver.a
+   mazesolver.cma
+   mazesolver.cmi
+   mazesolver.cmt
+   mazesolver.cmx
+   mazesolver.cmxa
+   mazesolver.ml
+   opam))
+ (libexec (mazesolver.cmxs))
+ (bin (MazeEscape)))
+(library
+ (name MazeEscape)
+ (kind normal)
+ (archives (byte mazesolver.cma) (native mazesolver.cmxa))
+ (plugins (byte mazesolver.cma) (native mazesolver.cmxs))
+ (native_archives mazesolver.a)
+ (main_module_name Mazesolver)
+ (modes byte native)
+ (modules
+  (singleton
+   (obj_name mazesolver)
+   (visibility public)
+   (source (path Mazesolver) (impl (path mazesolver.ml))))))

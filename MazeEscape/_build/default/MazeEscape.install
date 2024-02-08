@@ -1,0 +1,18 @@
+lib: [
+  "_build/install/default/lib/MazeEscape/META"
+  "_build/install/default/lib/MazeEscape/dune-package"
+  "_build/install/default/lib/MazeEscape/mazesolver.a"
+  "_build/install/default/lib/MazeEscape/mazesolver.cma"
+  "_build/install/default/lib/MazeEscape/mazesolver.cmi"
+  "_build/install/default/lib/MazeEscape/mazesolver.cmt"
+  "_build/install/default/lib/MazeEscape/mazesolver.cmx"
+  "_build/install/default/lib/MazeEscape/mazesolver.cmxa"
+  "_build/install/default/lib/MazeEscape/mazesolver.ml"
+  "_build/install/default/lib/MazeEscape/opam"
+]
+libexec: [
+  "_build/install/default/lib/MazeEscape/mazesolver.cmxs"
+]
+bin: [
+  "_build/install/default/bin/MazeEscape"
+]

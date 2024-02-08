@@ -1,0 +1,6 @@
+description = ""
+requires = ""
+archive(byte) = "mazesolver.cma"
+archive(native) = "mazesolver.cmxa"
+plugin(byte) = "mazesolver.cma"
+plugin(native) = "mazesolver.cmxs"

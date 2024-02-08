@@ -1,0 +1,23 @@
+# dune exec _build/default/bin/main.exe 0 7
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Shared cache location: /home/souvik/.cache/dune/db
+# Workspace root: /home/souvik/Desktop/Souvik/SouvikLearnsOcaml/New/MazeEscape
+# Auto-detected concurrency: 16
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; installed_env =
+#      map
+#        { "INSIDE_DUNE" :
+#            "/home/souvik/Desktop/Souvik/SouvikLearnsOcaml/New/MazeEscape/_build/default"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; instrument_with = []
+#  }
+$ /home/souvik/.opam/cs3110-2023fa/bin/ocamlc.opt -config > /tmp/dune_50ead4_output
